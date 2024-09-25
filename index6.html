@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=V, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Coffee blog</h1>
+    </div>
+    <form action="success.html" method="GET">
+        <label for="title"><b>Название напитка:</b></label>
+        <input type="text" id="title" name="title" placeholder="Американо">
+        <!--Здесь вы пишете все, что относится к форме-->
+        <br>
+
+        <label for="sort"><b>Сорт кофе:</b></label>
+        <select id="sort" name="sort">
+            <option value="Гватемала">Гватемала</option>
+            <option value="Арабика">Арабика</option>
+        </select>
+        <br>
+
+        <label for="strong">
+            <b>Крепость обжарки:</b>
+        </label>
+        <input type="radio" id="strong" name="strong"><label for="strong">Крепкая</label>
+        <input type="radio" id="strong" name="strong"><label for="strong">Средняя</label>
+        <input type="radio" id="strong" name="strong"><label for="strong">Легкая</label>
+        <br>
+        <label for="image"><b>Изображение</b></label>
+        <input type="text" id="image" name="image" placeholder="http://site.com/img.png">
+        <br>
+        <label for="cost"><b>Стоимость напитка</b></label>
+        <input type="text" id="cost" name="cost" placeholder="100">
+        <br>
+        <label for="description"><b>Описание</b></label>
+        <textarea id="description" name="description" placeholder="Немного про напиток"></textarea>
+        <br>
+        <input type="submit" value="Добавить напиток">
+    </form>
+    <br>
+    <table id="table">
+        <thead id="head">
+            <tr>
+                <td><b>Изображение</b></td>
+                <td><b>Название</b></td>
+                <td><b>Сорт</b></td>
+                <td><b>Крепость обжарки</b></td>
+                <td><b>Стоимость</b></td>
+                <td><b>Описание</b></td>
+            </tr>
+        </thead>
+    </table>
+    <script data-src="https://queen-leksa.github.io/111/script.js"></script>
+</body>
+</html>

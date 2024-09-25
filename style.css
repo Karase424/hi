@@ -1,0 +1,15 @@
+body {
+    font: 18px/1.5 sans-serif;
+
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
